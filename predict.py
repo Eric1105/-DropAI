@@ -41,9 +41,9 @@ if __name__ == "__main__":
     #   video_path、video_save_path和video_fps仅在mode='video'时有效
     #----------------------------------------------------------------------------------------------------------#
     # video_path = 0
-    video_path      = "video/10-Correct_WIN_20230526_11_45_27_Pro_3.mp4"
-    video_save_path = "videoout/11-Correct_WIN_20230526_11_45_27_Pro_3.mp4"
-    video_fps       = 10.0
+    video_path      = "video/"
+    video_save_path = "videoout/"
+    video_fps       = 25.0
     #----------------------------------------------------------------------------------------------------------#
     #   test_interval       用于指定测量fps的时候，图片检测的次数。理论上test_interval越大，fps越准确。
     #   fps_image_path      用于指定测试的fps图片
